@@ -202,8 +202,8 @@ margin-top: 40px;
 
 /* Offer Section */
 .offer{
-    width: 1600px;
-    height: 7335px;
+    width: 1200px;
+    height: 800px;
 background: #FFF;
     display: flex;
     padding-top: 200px;
@@ -272,4 +272,222 @@ font-size: 20px;
 font-weight: 400;
 margin-top: 18px;
 margin-bottom: 40px;
+}
+
+/* Holiday Section */
+/* .holiday{
+    /* width: 1200px;
+    height: 800px;
+    margin:0 900px; */
+   
+/* } */
+/* .holiday-title{
+    
+} */
+.holiday-text{ 
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 200px;
+}
+.holiday-head{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.red{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-para{
+    color: rgba(7, 2, 17, 0.60);
+/* text-align: center; */
+font-family: Inter;
+font-size: 25px;
+font-weight: 500;
+width: 1000px;
+padding-right: 100px;
+}
+/* .holiday-img{
+    margin:200px auto;
+    /* padding-bottom: 400px; */
+    /* background-image: url('../resources/Rectangle\ 2.png'); */
+    /* background-posi?tion: bottom; */
+/* }
+.holiday-img .girl{
+    padding-left: 880px;
+    padding-top: 20px;
+}
+.holiday-img .border{
+    margin-bottom: 10px;
+} */ 
+/* .box{
+margin-bottom: 400px;
+} */
+
+
+
+/* .portfolio{
+width:1660px;
+height: 600px;
+border:1px sold black;
+
+}
+.portfolio-title{
+    margin-top: 150px;
+margin-left: 400px;
+margin-right: 400px;
+}
+.portfolio-msg{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.portfolio-head{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.shafi-para{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+/* line-height: 32px; */
+/* }
+.portfolio-img{
+justify-content: space-evenly;
+padding: 40px 300px 0 300px;
+/* } */ 
+.gift{
+    margin:120px 400px 0 600px;
+    width:1600px;
+    height: 1200px;
+    /* border:1px solid black; */
+}
+
+.gift-title{
+    padding:50px 200px 0 0;
+}
+.gift-msg{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 18px;
+}
+.gift-head{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 22px;
+}
+.gift-para{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.gift-flowewr{
+    margin:20px 300px 0 100px;
+    /* width: 1400px; */
+    display: flex;
+    justify-content: space-between;
+    gap:400px;
+}
+.gift .gift-img{
+    width: 424px;
+height: 450px;
+   display: flex;
+   /* margin-right: 200px; */
+   padding:20px 600px 0 0px;
+   gap:80px;
+}
+
+.gift .bag{
+    width: 424px;
+height: 450px;
+   display: flex;
+   /* margin-right: 200px; */
+   padding:20px 600px 0 0px;
+   gap:80px;
+}
+.letter{
+margin:200px 300px 0 300px;
+width: 1800px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+border: 1px solid black;
+}
+.letter-banner{
+    padding: 40px 200px 100px 200px;
+align-items: center;
+justify-content: center;
+}
+.letter-banner .rec{
+    margin: 40px 500px 0 600px;
+}
+.letter-head{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 20px;
+}
+.letter-para{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+width: 896px;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+margin-top: 20px;
+margin-left: 220px;
+}
+.letter-banner form{
+margin:20px auto;
+/* display: inline-block; */
+display: flex;
+max-width: 800px;
+    border-radius: 50px;
+background: #FFF;
+/* border:1px solid green; */
+/* text-align: left; */
+padding: 4px;
+gap:10px;
+}
+.new-shafi{
+    flex-grow: 1;
+    border:none;
+    border-radius: 34px;
+    padding: 20px;
+}
+.btn-rafi{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border:none;
+
+
 }
