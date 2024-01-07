@@ -89,9 +89,10 @@ margin-bottom: 48px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center top left; */
+    background-position: relative;
     margin:0 300px 20px 300px;
     border-radius: 20px;
+    /* display: flex; */
 }
 .welcome-heading{
     color: #FFF;
@@ -127,8 +128,71 @@ line-height: 30px;
     text-transform: uppercase;
 }
 .welcome-title{
-    padding:200px 600px 130px 200px;
+    padding:150px 300px 130px 200px;
+    /* display: flex; */
     
+    
+}
+.welcome-banner{
+
+    display: flex;
+    padding-right: 170px;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hotel Section Starts Here */
+.hotel{
+margin-top: 120px;
+width: 1800px;
+height: 450px;
+margin-left: 300px;
+margin-right: 200px;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.hotel-heading{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.special{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.hotel-title{
+padding:120px 400px 250px 700px;
+}
+.hotel-btn{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-left: 120px;
+margin-top: 40px;
+}
+.welcome img{
     
 }
 .welcome-title p,h1{
