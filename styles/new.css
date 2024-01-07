@@ -150,6 +150,7 @@ height: 450px;
 margin-left: 300px;
 margin-right: 200px;
 background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+border-radius: 20px;
 }
 .hotel-heading{
     color: #070211;
@@ -197,4 +198,78 @@ margin-top: 40px;
 }
 .welcome-title p,h1{
     
+}
+
+/* Offer Section */
+.offer{
+    width: 1600px;
+    height: 7335px;
+background: #FFF;
+    display: flex;
+    padding-top: 200px;
+    margin:0 150px 0 150px;
+
+    
+}
+.offer-banner{
+    padding: 0 150px 100px 150px;
+    /* display: flex; */
+    max-width: 700px;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.offer-title{
+    color: #F00;
+/* text-align: center; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+padding-left: 40px;
+/* line-height: normal; */
+}
+.offer-heading{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+text-align: center;
+width: 393px;
+margin-top: 18px;
+}
+.offer-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+text-align: center;
+margin-top: 25px;
+}
+.offer-img{
+    margin:0 150px 0 150px;
+    width: 463px;
+height: 463px;
+border-radius: 463px;
+border: 15px solid #F00;
+padding: 20px 20px 20px 20px;
+}
+.offer-description{
+    margin: 100px 150px 0 150px;
+
+}
+.offer-new{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.offer-dolor{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 18px;
+margin-bottom: 40px;
 }
