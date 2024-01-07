@@ -7,6 +7,7 @@ body{
     font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;
 }
+
 /* Nav Starts Here */
 nav{
    
@@ -48,3 +49,88 @@ font-weight: 900;
     margin-left: 20px;
 }  */
 /* Nav Ends Here */
+
+/* Main Section */
+.main-section{
+    margin-top:120px;
+}
+.main-heading{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 48px;
+}
+.main-paragraph{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.main-new-heading{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 48px;
+}
+.main-section img{
+    margin:0 0 100px 790px;
+}
+
+/* Welcome Section */
+.welcome{
+    width: 1800px;
+    height: 750px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center top left; */
+    margin:0 300px 20px 300px;
+    border-radius: 20px;
+}
+.welcome-heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    width: 700px;
+
+}
+.welcome-paragraph{
+    color: rgba(255, 255, 255, 0.80);
+/* font-family: Inter; */
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+    width: 700px;
+   margin-right: 20px;
+   margin-top: 30px;
+  
+   
+}
+.btn{
+    color:black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.welcome-title{
+    padding:200px 600px 130px 200px;
+    
+    
+}
+.welcome-title p,h1{
+    
+}
