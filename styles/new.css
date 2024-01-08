@@ -15,7 +15,7 @@ nav{
     height: 800px;
     border-radius: 16px;
 
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)  , url('../resources/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin:0 auto;
@@ -334,43 +334,6 @@ padding-right: 100px;
 margin-bottom: 400px;
 } */
 
-
-
-/* .portfolio{
-width:1660px;
-height: 600px;
-border:1px sold black;
-
-}
-.portfolio-title{
-    margin-top: 150px;
-margin-left: 400px;
-margin-right: 400px;
-}
-.portfolio-msg{
-    color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-}
-.portfolio-head{
-    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-}
-.shafi-para{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-/* line-height: 32px; */
-/* }
-.portfolio-img{
-justify-content: space-evenly;
-padding: 40px 300px 0 300px;
-/* } */ 
 .gift{
     margin:120px 400px 0 600px;
     width:1600px;
@@ -434,7 +397,7 @@ width: 1800px;
 height: 616px;
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 .letter-banner{
     padding: 40px 200px 100px 200px;
@@ -488,6 +451,4 @@ height: 72px;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 border:none;
-
-
 }
