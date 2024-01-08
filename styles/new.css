@@ -335,14 +335,24 @@ margin-bottom: 400px;
 } */
 
 .gift{
-    margin:120px 400px 0 600px;
-    width:1600px;
+ 
+    /* //pore tika kora lagte pare/ */
+    width:1800px;   
     height: 1200px;
-    /* border:1px solid black; */
+    /* margin:120px 300px 0 300px; */
+        /* border:1px solid black; */
+        margin: 0 auto;
 }
 
 .gift-title{
     padding:50px 200px 0 0;
+}
+.gift-section{
+    /* width:70%; */
+   margin-right: 250px;
+   padding:0 300px 0 200px;
+    /* border: 2px solid green; */
+    /* margin: 0 auto; */
 }
 .gift-msg{
     color: #F00;
@@ -371,11 +381,11 @@ line-height: 32px; /* 160% */
     margin:20px 300px 0 100px;
     /* width: 1400px; */
     display: flex;
-    justify-content: space-between;
-    gap:400px;
+    justify-content: space-evenly;
+    gap:40px;
 }
 .gift .gift-img{
-    width: 424px;
+    width: 500px;
 height: 450px;
    display: flex;
    /* margin-right: 200px; */
@@ -384,7 +394,7 @@ height: 450px;
 }
 
 .gift .bag{
-    width: 424px;
+    width: 500px;
 height: 450px;
    display: flex;
    /* margin-right: 200px; */
@@ -392,7 +402,7 @@ height: 450px;
    gap:80px;
 }
 .letter{
-margin:200px 300px 0 300px;
+margin:200px 300px 50px 300px;
 width: 1800px;
 height: 616px;
 border-radius: 16px;
@@ -445,10 +455,90 @@ gap:10px;
     border-radius: 34px;
     padding: 20px;
 }
+.letter-banner form input{
+    color: rgba(7, 2, 17, 0.30);
+/* text-align: center; */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .btn-rafi{
     width: 210px;
 height: 72px;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 border:none;
+}
+
+/* Footer Section */
+footer{
+    background: #070211;
+    /* width: 1800px;
+    height: 500px; */
+}
+.foot-section{
+     display: flex;
+    width: 1800px;
+height: 500px; 
+margin: 0 -80px 0 200px;
+/* background: brown; */
+/* background-size: 100% 100%; */
+justify-content: space-evenly;
+padding: 200px 100px 0 100px;
+}
+.foot-title{
+    margin-right: 150px;
+    /* margin-left: 300px; */
+}
+.foot-para{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.foot-rights{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 300px;
+}
+.foot-image{
+    margin-top: 180px;
+    /* margin-left: 40px; */
+    /* padding-left: 40px; */
+    gap:40px;
+    width: 64px;
+height: 64px;
+display: flex;
+margin-left: 250px;
+}
+.foot-number{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.icon{
+    width: 24px;
+height: 24px;
+margin-right: 3px;
+
+}
+.foot-last{
+    margin-left: 800px;
+    /* padding-left: 300px; */
+}
+.subs{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 300px;
+/* margin-right: 200px;
+text-align: right; */
 }
