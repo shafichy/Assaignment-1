@@ -10,20 +10,21 @@ font-family: 'Open Sans', sans-serif;
 
 /* Nav Starts Here */
 nav{
+    /* border:2px solid green; */
    
-    width: 1800px;
-    height: 800px;
+    width: 1600px;
+    height: 700px;
     border-radius: 16px;
 
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)  , url('../resources/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin:0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     /* padding:100px 100px 100px 100px; */
 }
 .nav-title{
-    padding:300px 450px 300px 450px;
+    padding:220px 450px 300px 450px;
 }
 .nav-paragraph{
     color: #FFF;
@@ -52,7 +53,15 @@ font-weight: 900;
 
 /* Main Section */
 .main-section{
-    margin-top:120px;
+    margin-top:140px;
+    /* border:2px solid burlywood; */
+}
+.main-section .image{
+    justify-content: center;
+    align-items: center;
+    /* margin:0 80px 100px 790px; */
+    /* border: 2px solid red; */
+    margin:20px 0 100px 550px;
 }
 .main-heading{
     color: #F00;
@@ -78,19 +87,20 @@ font-size: 48px;
 font-weight: 700;
 margin-bottom: 48px;
 }
-.main-section img{
+/* .main-section img{
     margin:0 0 100px 790px;
-}
+} */
 
 /* Welcome Section */
 .welcome{
-    width: 1800px;
+    /* border:2px solid blue; */
+    width: 1600px;
     height: 750px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: relative;
-    margin:0 300px 20px 300px;
+    margin:50px 100px 20px 150px;
     border-radius: 20px;
     /* display: flex; */
 }
@@ -144,10 +154,10 @@ line-height: 30px;
 
 /* Hotel Section Starts Here */
 .hotel{
-margin-top: 120px;
-width: 1800px;
+margin-top: 150px;
+width: 1600px;
 height: 450px;
-margin-left: 300px;
+margin-left: 150px;
 margin-right: 200px;
 background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 border-radius: 20px;
@@ -202,12 +212,14 @@ margin-top: 40px;
 
 /* Offer Section */
 .offer{
+    borer:2px solid red;
     width: 1200px;
     height: 800px;
 background: #FFF;
     display: flex;
     padding-top: 200px;
-    margin:0 150px 0 150px;
+    margin:30px 50px 0 0;
+    justify-content: space-between;
 
     
 }
@@ -335,13 +347,14 @@ margin-bottom: 400px;
 } */
 
 .gift{
+    /* border:2px solid black; */
  
     /* //pore tika kora lagte pare/ */
-    width:1800px;   
+    width:1600px;   
     height: 1200px;
     /* margin:120px 300px 0 300px; */
         /* border:1px solid black; */
-        margin: 0 auto;
+        margin: 50px 400px 0 100px;
 }
 
 .gift-title{
@@ -350,7 +363,7 @@ margin-bottom: 400px;
 .gift-section{
     /* width:70%; */
    margin-right: 250px;
-   padding:0 300px 0 200px;
+   padding:0 300px 0 150px;
     /* border: 2px solid green; */
     /* margin: 0 auto; */
 }
@@ -402,15 +415,17 @@ height: 450px;
    gap:80px;
 }
 .letter{
-margin:200px 300px 50px 300px;
-width: 1800px;
+    /* border:2px solid red; */
+width: 1600px;
 height: 616px;
+margin:150px auto 150px auto;
+/* margin:0 auto; */
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 /* border: 1px solid black; */
 }
 .letter-banner{
-    padding: 40px 200px 100px 200px;
+    padding: 40px 100px 100px 200px;
 align-items: center;
 justify-content: center;
 }
@@ -447,22 +462,25 @@ background: #FFF;
 /* border:1px solid green; */
 /* text-align: left; */
 padding: 4px;
-gap:10px;
+/* gap:10px; */
 }
-.new-shafi{
-    flex-grow: 1;
-    border:none;
-    border-radius: 34px;
-    padding: 20px;
-}
+/* .new-shafi{
+    /* flex-grow: 1; */
+    /* border:none; */
+    /* border-radius: 34px; */
+    /* padding: 20px; */
+/* /* }  */
 .letter-banner form input{
     color: rgba(7, 2, 17, 0.30);
+    flex-grow: 1;
 /* text-align: center; */
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
+border:none;
+border-radius: 34px;
+padding: 20px;
+/* padding-right: 5px; */
 }
 .btn-rafi{
     width: 210px;
@@ -470,27 +488,36 @@ height: 72px;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 border:none;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
 }
 
 /* Footer Section */
 footer{
+    /* border: 2px solid blueviolet; */
+    margin-top: auto;
     background: #070211;
     /* width: 1800px;
     height: 500px; */
 }
 .foot-section{
      display: flex;
-    width: 1800px;
+    width: 1500px;
 height: 500px; 
 margin: 0 -80px 0 200px;
 /* background: brown; */
 /* background-size: 100% 100%; */
-justify-content: space-evenly;
-padding: 200px 100px 0 100px;
+justify-content: space-between;
+padding: 200px 100px 0 0;
 }
 .foot-title{
-    margin-right: 150px;
+    /* margin-right: 150px; */
     /* margin-left: 300px; */
+    /* margin: 0 auto; */
 }
 .foot-para{
     color: #FFF;
@@ -515,13 +542,16 @@ margin-top: 300px;
     width: 64px;
 height: 64px;
 display: flex;
-margin-left: 250px;
+/* margin-left: 250px; */
+margin-right: 300px;
+margin-left: 100px;
 }
 .foot-number{
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+padding-left: 20px;
 }
 .icon{
     width: 24px;
@@ -530,8 +560,9 @@ margin-right: 3px;
 
 }
 .foot-last{
-    margin-left: 800px;
+    /* margin-left: 800px; */
     /* padding-left: 300px; */
+    /* padding-left: 50px; */
 }
 .subs{
     color: #FFF;
@@ -539,6 +570,6 @@ font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 margin-top: 300px;
-/* margin-right: 200px;
-text-align: right; */
+padding-left: 220px;
+
 }
