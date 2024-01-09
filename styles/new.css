@@ -305,7 +305,7 @@ padding-right: 100px;
 .figma-2{
     position: absolute;
     margin-top: 350px ;
-    margin-left: 1000px;
+    margin-left: 1020px;
     z-index: 1;
 }
 .figma-3{
@@ -368,7 +368,12 @@ height: 450px;
    padding:20px 600px 0 0px;
    gap:80px;
 }
-
+.gift .gift-img .march:hover{
+    border:2px solid mediumblue;
+}
+.gift .bag .march:hover{
+    border:2px solid mediumblue;
+}
 .gift .bag{
     width: 500px;
 height: 450px;
