@@ -260,7 +260,7 @@ text-align: center;
 margin-top: 25px;
 }
 .offer-img{
-    margin:0 150px 0 150px;
+    margin:0 150px 0 100px;
     width: 463px;
 height: 463px;
 border-radius: 463px;
@@ -287,15 +287,15 @@ margin-bottom: 40px;
 }
 
 /* Holiday Section */
-/* .holiday{
-    /* width: 1200px;
-    height: 800px;
-    margin:0 900px; */
-   
-/* } */
-/* .holiday-title{
-    
-} */
+.holiday{
+    width: 1700px;
+    height: 1200px;
+    /* border:1px solid maroon; */
+    margin:0 auto;
+ }
+.holiday-title{
+    padding:0 0 0 550px;
+}
 .holiday-text{ 
     color: #070211;
 font-family: Inter;
@@ -312,6 +312,7 @@ font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
+margin-bottom: 20px;
 }
 .red{
     color: #F00;
@@ -328,6 +329,42 @@ font-size: 25px;
 font-weight: 500;
 width: 1000px;
 padding-right: 100px;
+}
+/* .holiday-image{
+    margin: 300px auto 0 auto;
+    width: 1500px;
+    height: 300px;
+    background: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: ; */
+    
+
+.holiday-new-section{
+   position: relative;
+}
+.figma-1{
+    position: absolute;
+    margin-top: 300px;
+    z-index: 1;
+    margin-left: 200px;
+}
+.figma-2{
+    position: absolute;
+    margin-top: 350px ;
+    margin-left: 1000px;
+    z-index: 1;
+}
+.figma-3{
+    position: absolute;
+    /* margin-top: 20px; */
+    margin-top: 270px;
+    margin-left: 1170px;
+}
+.figma-4{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 100px;
 }
 /* .holiday-img{
     margin:200px auto;
@@ -502,7 +539,8 @@ footer{
     margin-top: auto;
     background: #070211;
     /* width: 1800px;
-    height: 500px; */
+    height: 500px; */border:none;
+    border-radius: 10px;
 }
 .foot-section{
      display: flex;
@@ -549,20 +587,29 @@ margin-left: 100px;
 .foot-number{
     color: #FFF;
 font-family: Inter;
-font-size: 24px;
+font-size: 28px;
 font-weight: 500;
 padding-left: 20px;
+/* border:1px solid maroon; */
 }
 .icon{
-    width: 24px;
-height: 24px;
+    width: 22px;
+height: 22px;
 margin-right: 3px;
+margin-top: 3px;
 
+}
+.foot-option{
+    display: flex;
 }
 .foot-last{
     /* margin-left: 800px; */
     /* padding-left: 300px; */
     /* padding-left: 50px; */
+    /* padding-bottom: 5px; */
+    /* justify-content: center; */
+    /* border:1px solid red; */
+
 }
 .subs{
     color: #FFF;
