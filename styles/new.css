@@ -8,20 +8,17 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
+
 /* Nav Starts Here */
 nav{
-    /* border:2px solid green; */
-   
     width: 1600px;
     height: 700px;
     border-radius: 16px;
-
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)  , url('../resources/Banner\ Image.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin:0 auto;
     margin-top: 50px;
-    /* padding:100px 100px 100px 100px; */
 }
 .nav-title{
     padding:220px 450px 300px 450px;
@@ -34,33 +31,23 @@ font-weight: 400;
 font-family: Merriweather;
 }
 .nav-heading{
-    /* width: 632px; */
     color: #FFF;
 text-align: center;
 color: #FFF;
 font-family: Merriweather;
 font-size: 90px;
 font-weight: 900;
-/* margin-bottom: 10px; */
-/* padding-left: 150px; */
-/* padding:233px 344px 10px 344px; */
 }
-/* .nav-title p,h1{
-    margin-bottom: 20px;
-    margin-left: 20px;
-}  */
 /* Nav Ends Here */
+
 
 /* Main Section */
 .main-section{
     margin-top:140px;
-    /* border:2px solid burlywood; */
 }
 .main-section .image{
     justify-content: center;
     align-items: center;
-    /* margin:0 80px 100px 790px; */
-    /* border: 2px solid red; */
     margin:20px 0 100px 550px;
 }
 .main-heading{
@@ -87,13 +74,10 @@ font-size: 48px;
 font-weight: 700;
 margin-bottom: 48px;
 }
-/* .main-section img{
-    margin:0 0 100px 790px;
-} */
+
 
 /* Welcome Section */
 .welcome{
-    /* border:2px solid blue; */
     width: 1600px;
     height: 750px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
@@ -102,7 +86,6 @@ margin-bottom: 48px;
     background-position: relative;
     margin:50px 100px 20px 150px;
     border-radius: 20px;
-    /* display: flex; */
 }
 .welcome-heading{
     color: #FFF;
@@ -115,7 +98,6 @@ margin-bottom: 48px;
 }
 .welcome-paragraph{
     color: rgba(255, 255, 255, 0.80);
-/* font-family: Inter; */
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -123,8 +105,6 @@ line-height: 30px;
     width: 700px;
    margin-right: 20px;
    margin-top: 30px;
-  
-   
 }
 .btn{
     color:black;
@@ -138,13 +118,9 @@ line-height: 30px;
     text-transform: uppercase;
 }
 .welcome-title{
-    padding:150px 300px 130px 200px;
-    /* display: flex; */
-    
-    
+    padding:150px 300px 130px 200px; 
 }
 .welcome-banner{
-
     display: flex;
     padding-right: 170px;
     padding-top: 60px;
@@ -196,36 +172,27 @@ color: #FFF;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 text-transform: uppercase;
 margin-left: 120px;
 margin-top: 40px;
+border:none;
 }
-.welcome img{
-    
-}
-.welcome-title p,h1{
-    
-}
+
 
 /* Offer Section */
 .offer{
     borer:2px solid red;
     width: 1200px;
     height: 800px;
-background: #FFF;
+    background: #FFF;
     display: flex;
     padding-top: 200px;
     margin:30px 50px 0 0;
     justify-content: space-between;
-
-    
 }
 .offer-banner{
     padding: 0 150px 100px 150px;
-    /* display: flex; */
     max-width: 700px;
     justify-content: center;
     margin-top: 100px;
@@ -233,13 +200,11 @@ background: #FFF;
 }
 .offer-title{
     color: #F00;
-/* text-align: center; */
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 padding-left: 40px;
-/* line-height: normal; */
 }
 .offer-heading{
     color: #070211;
@@ -269,7 +234,6 @@ padding: 20px 20px 20px 20px;
 }
 .offer-description{
     margin: 100px 150px 0 150px;
-
 }
 .offer-new{
     color: #F00;
@@ -290,7 +254,6 @@ margin-bottom: 40px;
 .holiday{
     width: 1700px;
     height: 1200px;
-    /* border:1px solid maroon; */
     margin:0 auto;
  }
 .holiday-title{
@@ -323,22 +286,12 @@ font-weight: 900;
 }
 .holiday-para{
     color: rgba(7, 2, 17, 0.60);
-/* text-align: center; */
 font-family: Inter;
 font-size: 25px;
 font-weight: 500;
 width: 1000px;
 padding-right: 100px;
 }
-/* .holiday-image{
-    margin: 300px auto 0 auto;
-    width: 1500px;
-    height: 300px;
-    background: url('../resources/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-size: ; */
-    
 
 .holiday-new-section{
    position: relative;
@@ -357,7 +310,6 @@ padding-right: 100px;
 }
 .figma-3{
     position: absolute;
-    /* margin-top: 20px; */
     margin-top: 270px;
     margin-left: 1170px;
 }
@@ -366,43 +318,26 @@ padding-right: 100px;
     margin-top: 700px;
     margin-left: 100px;
 }
-/* .holiday-img{
-    margin:200px auto;
-    /* padding-bottom: 400px; */
-    /* background-image: url('../resources/Rectangle\ 2.png'); */
-    /* background-posi?tion: bottom; */
-/* }
+
 .holiday-img .girl{
     padding-left: 880px;
     padding-top: 20px;
 }
 .holiday-img .border{
     margin-bottom: 10px;
-} */ 
-/* .box{
-margin-bottom: 400px;
-} */
-
+} 
 .gift{
-    /* border:2px solid black; */
- 
-    /* //pore tika kora lagte pare/ */
     width:1600px;   
     height: 1200px;
-    /* margin:120px 300px 0 300px; */
-        /* border:1px solid black; */
-        margin: 50px 400px 0 100px;
+    margin: 50px 400px 0 100px;
 }
 
 .gift-title{
     padding:50px 200px 0 0;
 }
 .gift-section{
-    /* width:70%; */
    margin-right: 250px;
    padding:0 300px 0 150px;
-    /* border: 2px solid green; */
-    /* margin: 0 auto; */
 }
 .gift-msg{
     color: #F00;
@@ -425,11 +360,10 @@ margin-top: 22px;
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px;
 }
 .gift-flowewr{
     margin:20px 300px 0 100px;
-    /* width: 1400px; */
     display: flex;
     justify-content: space-evenly;
     gap:40px;
@@ -438,7 +372,6 @@ line-height: 32px; /* 160% */
     width: 500px;
 height: 450px;
    display: flex;
-   /* margin-right: 200px; */
    padding:20px 600px 0 0px;
    gap:80px;
 }
@@ -447,19 +380,15 @@ height: 450px;
     width: 500px;
 height: 450px;
    display: flex;
-   /* margin-right: 200px; */
    padding:20px 600px 0 0px;
    gap:80px;
 }
 .letter{
-    /* border:2px solid red; */
 width: 1600px;
 height: 616px;
 margin:150px auto 150px auto;
-/* margin:0 auto; */
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
-/* border: 1px solid black; */
 }
 .letter-banner{
     padding: 40px 100px 100px 200px;
@@ -491,22 +420,13 @@ margin-left: 220px;
 }
 .letter-banner form{
 margin:20px auto;
-/* display: inline-block; */
 display: flex;
 max-width: 800px;
     border-radius: 50px;
 background: #FFF;
-/* border:1px solid green; */
-/* text-align: left; */
 padding: 4px;
 /* gap:10px; */
 }
-/* .new-shafi{
-    /* flex-grow: 1; */
-    /* border:none; */
-    /* border-radius: 34px; */
-    /* padding: 20px; */
-/* /* }  */
 .letter-banner form input{
     color: rgba(7, 2, 17, 0.30);
     flex-grow: 1;
@@ -538,8 +458,7 @@ footer{
     /* border: 2px solid blueviolet; */
     margin-top: auto;
     background: #070211;
-    /* width: 1800px;
-    height: 500px; */border:none;
+    border:none;
     border-radius: 10px;
 }
 .foot-section{
@@ -547,15 +466,8 @@ footer{
     width: 1500px;
 height: 500px; 
 margin: 0 -80px 0 200px;
-/* background: brown; */
-/* background-size: 100% 100%; */
 justify-content: space-between;
 padding: 200px 100px 0 0;
-}
-.foot-title{
-    /* margin-right: 150px; */
-    /* margin-left: 300px; */
-    /* margin: 0 auto; */
 }
 .foot-para{
     color: #FFF;
@@ -580,7 +492,6 @@ margin-top: 300px;
     width: 64px;
 height: 64px;
 display: flex;
-/* margin-left: 250px; */
 margin-right: 300px;
 margin-left: 100px;
 }
@@ -601,15 +512,6 @@ margin-top: 3px;
 }
 .foot-option{
     display: flex;
-}
-.foot-last{
-    /* margin-left: 800px; */
-    /* padding-left: 300px; */
-    /* padding-left: 50px; */
-    /* padding-bottom: 5px; */
-    /* justify-content: center; */
-    /* border:1px solid red; */
-
 }
 .subs{
     color: #FFF;
