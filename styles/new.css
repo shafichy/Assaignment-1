@@ -254,8 +254,9 @@ margin-bottom: 40px;
 .holiday{
     width: 1700px;
     height: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
  }
+ 
 .holiday-title{
     padding:0 0 0 550px;
 }
@@ -292,7 +293,6 @@ font-weight: 500;
 width: 1000px;
 padding-right: 100px;
 }
-
 .holiday-new-section{
    position: relative;
 }
@@ -319,13 +319,6 @@ padding-right: 100px;
     margin-left: 100px;
 }
 
-.holiday-img .girl{
-    padding-left: 880px;
-    padding-top: 20px;
-}
-.holiday-img .border{
-    margin-bottom: 10px;
-} 
 .gift{
     width:1600px;   
     height: 1200px;
@@ -501,6 +494,8 @@ font-family: Inter;
 font-size: 28px;
 font-weight: 500;
 padding-left: 20px;
+margin-top: 3px;
+gap:5px;
 /* border:1px solid maroon; */
 }
 .icon{
